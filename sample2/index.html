@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Face Tracking Video Demo</title>
+
+	<link rel="stylesheet" href="../common/css/normalize.css">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+
+	<script src="../common/js/stats.min.js"></script>
+	<script src="../common/js/clmtrackr.min.js"></script>
+	<script src="../common/js/model/model_pca_20_svm.js"></script>
+	<script defer src="js/index.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="inner">
+		<div id="drawArea">
+			<img id="loading" src="../common/images/loading.svg" alt="">
+			<video id="video" loop>
+				<source src="media/cap12_edit.mp4" type="video/mp4" />
+				<source src="media/cap12_edit.ogv" type="video/ogg" />
+			</video>
+			<canvas id="wireframe"></canvas>
+			<img src="images/play.png" id="playImage" width="64" height="64" alt="">
+		</div>
+		<div id="ui">
+			<input id="inputFile" accept="video/*" type="file">
+			<p id="log"></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

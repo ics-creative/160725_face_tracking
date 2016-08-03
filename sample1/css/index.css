@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#inner {
+	max-width: 400px;
+}
+
+#drawArea,
+#image {
+	position: relative;
+}
+
+#image {
+	width: 100%;
+}
+
+#drawArea canvas {
+	vertical-align: top;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Face Tracking Image Demo</title>
+
+	<link rel="stylesheet" href="../common/css/normalize.css">
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+
+	<script src="../common/js/stats.min.js"></script>
+	<script src="../common/js/clmtrackr.min.js"></script>
+	<script src="../common/js/model/model_pca_20_svm.js"></script>
+	<script src="js/load-image.all.min.js"></script>
+	<script defer src="js/index.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="inner">
+		<div id="drawArea">
+			<img id="loading" src="../common/images/loading.svg" alt="">
+			<canvas id="image" width="200" height="200"></canvas>
+			<canvas id="wireframe"></canvas>
+		</div>
+		<div id="ui">
+			<input id="inputFile" accept="image/*" type="file">
+			<p id="log"></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

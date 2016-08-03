@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#inner {
+	max-width: 500px;
+}
+
+#drawArea,
+#video {
+	position: relative;
+}
+
+#mask {
+	position: absolute;
+	top: 0;
+}
+
+#drawArea canvas,
+#drawArea video {
+	vertical-align: top;
+}
+
+#video {
+	width: 100%;
+	height: auto;
+}
+
+#ui {
+	margin: 20px 0 0;
+}
+
+#ui input {
+	margin: 0 0 10px;
+}
