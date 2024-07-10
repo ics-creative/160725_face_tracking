@@ -1,7 +1,5 @@
-@charset "UTF-8";
-
 #inner {
-	max-width: 500px;
+  max-width: 640px;
 }
 
 #drawArea,
@@ -9,14 +7,12 @@
 	position: relative;
 }
 
-#mask {
+#mask, #wireframe {
 	position: absolute;
 	top: 0;
-}
-
-#drawArea canvas,
-#drawArea video {
-	vertical-align: top;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 #video {

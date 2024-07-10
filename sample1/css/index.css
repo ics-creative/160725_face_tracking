@@ -1,7 +1,5 @@
-@charset "UTF-8";
-
 #inner {
-	max-width: 400px;
+  max-width: 640px;
 }
 
 #drawArea,

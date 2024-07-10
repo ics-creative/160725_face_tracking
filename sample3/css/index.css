@@ -1,7 +1,5 @@
-@charset "UTF-8";
-
 #inner {
-	max-width: 500px;
+	max-width: 640px;
 }
 
 #drawArea,
@@ -10,18 +8,13 @@
 }
 
 #drawArea canvas {
-	vertical-align: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 #video {
 	width: 100%;
 	height: auto;
-}
-
-#ui {
-	margin: 20px 0 0;
-}
-
-#ui input {
-	margin: 0 0 10px;
 }
